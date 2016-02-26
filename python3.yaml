@@ -1,0 +1,5 @@
+description: Python 3
+dockerfile_snippet: |
+  RUN apt-get update -y
+  RUN apt-get install -y python3
+test: python3 --version

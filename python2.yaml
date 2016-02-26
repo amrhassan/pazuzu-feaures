@@ -1,0 +1,5 @@
+description: Python 2
+dockerfile_snippet: |
+  RUN apt-get update -y
+  RUN apt-get install -y python
+test: python --version

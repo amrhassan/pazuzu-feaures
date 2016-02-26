@@ -1,0 +1,5 @@
+description: Go
+dockerfile_snippet: |
+  RUN apt-get update -y
+  RUN apt-get install -y golang
+test: go --version
